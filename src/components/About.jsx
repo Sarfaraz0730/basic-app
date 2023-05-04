@@ -6,17 +6,17 @@ const About = () => {
 
     const navigate = useNavigate()
     const handleABout = ()=>{
-        navigate("/home")
+        navigate("/")
     }
    
   
   return (
     <div>
-      <h1  onClick={handleABout} >About </h1>
+  
     
      
-      Ea magni reiciendis ipsa, at fuga modi eaque quod perferendis id assumenda, quae repudiandae non asperiores culpa inventore architecto velit illo voluptas autem debitis. Magnam doloribus ratione deserunt saepe. Impedit?
-      
+      <h5>Hy this is ABout page</h5>
+      <button onClick={handleABout}>Go to Home page</button>
     </div>
   )
 }
