@@ -1,27 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
-// import { Routes, Route } from "react-router-dom";
-import { Route, Routes} from "react-router-dom"
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { Switch } from 'react-router-dom';
 
+import Navbar from './components/Navbar/Navbar'
+import Home from "./components/Home"
+import About from "./components/About"
+import Contact from "./components/Contact"
+import Skills from "./components/Skills"
+import Signup from "./components/Signup"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+   <>
+    <Router>
       <Navbar/>
-      <Home/>
-  
+
+
       <Routes>
-        {/* <Route path="/" element={<Home/>}></Route> */}
-        <Route path="/about" element={<About/>} ></Route>
-        <Route  path="/contact" element={<Contact/>} ></Route>
-      
+       
+        <Route  path='/' element={<Home/>} ></Route>
+       <Route path='/about' element ={<About/>}></Route>
+       <Route path='/contact'element={<Contact/>}></Route>
+       <Route path='/skills'element={<Skills/>}></Route>
+       <Route path='/contact'element={<Contact/>}></Route>
+       <Route path='/signup'element={<Signup/>}></Route>
+    
       </Routes>
-    </div>
-  );
+
+
+
+
+
+    </Router>
+   </>
+  )
 }
 
-export default App;
+export default App

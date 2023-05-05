@@ -8,9 +8,7 @@ const Contact = () => {
     }
   return (
     <div>
-      <h1>Contact </h1>
-      <h5>Hi this contact page </h5>
-      <button onClick={handleHome} >Go to home page</button>
+Contact page
     </div>
   )
 }
