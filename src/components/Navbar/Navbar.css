@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: #00828c;
+    background-color: #1c305c;
     color: #fff;
 
 }
@@ -54,7 +54,7 @@ display: none;
         position: absolute;
         display: block;
         list-style: none;
-        background-color: #005469;
+        background-color: #202a44;
         left:0;
         top:75px;
         transition: all 0.5s ease-out;
@@ -75,7 +75,7 @@ display: none;
         position: absolute;
         font-size: 30px;
         color: #fff;
-        background-color: #00828c;
+        background-color: #1c305c;
         outline: none;
         top: 15px;
         right: 25px;
