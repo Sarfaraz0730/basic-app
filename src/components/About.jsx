@@ -15,7 +15,7 @@ const About = () => {
   
     
      
-About Page
+ <h1>Hy this is about page</h1>
     </div>
   )
 }
