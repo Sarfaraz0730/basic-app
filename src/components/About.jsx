@@ -9,7 +9,8 @@ const About = () => {
   
     
      
- <h1>About Page</h1>
+ <h3>About Page</h3>
+ My Name is Sarfaraz. This is testing
     </div>
   )
 }
