@@ -15,7 +15,7 @@ const About = () => {
   
     
      
- <h1>Hy this is about page</h1>
+ <h1>Hy this is about page write a details about yourselve</h1>
     </div>
   )
 }
